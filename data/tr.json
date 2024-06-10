@@ -1,0 +1,81 @@
+{
+  "meta": {
+    "lang": "tr",
+    "locale": "tr_TR",
+    "title": "Abdullah Cavus - Yazilim Gelistirici",
+    "description": "A selection of works from the portfolio of Abdullah CAVUS, embedded developer."
+  },
+  "global": {
+    "basePath": "../",
+    "title": "Abdullah CAVUS",
+    "subtitle": "embedded developer",
+    "contactMe": "Benimle İletişime Geçin",
+    "alternativeLanguages": [
+      {
+        "lang": "tr",
+        "title": "TR",
+        "path": "/tr/",
+        "autoRedirect": true
+      }
+    ]
+  },
+  "projects": [
+    {
+      "id": "projects",
+      "title": "Personal Projects",
+      "keywords": "Development",
+      "description": "<p></p>",
+      "image": "microcontrollers.gif",
+      "credits": {
+        "Design": "",
+        "Development": ""
+      }
+    },
+    {
+      "id": "pcb_design",
+      "title": "PCB Design",
+      "keywords": "KiCAD,Proteus,EasyEDA",
+      "description": "<p>Çalışma ve öğrencilik hayatım boyunca çeşitli devreler tasarlayıp, bastırdım ve bastım. </p>",
+      "image": "pcb_design.gif",
+      "credits": {
+        "KiCAD": ""
+      }
+    },
+    {
+      "id": "microcontrollers",
+      "title": "Microcontrollers",
+      "keywords": "Development",
+      "description": "<p></p>",
+      "image": "microcontrollers.gif",
+      "credits": {
+        "Design": "",
+        "Development": ""
+      }
+    },
+    {
+      "id": "programming",
+      "title": "Programlama",
+      "keywords": "C, C++, Python",
+      "description": "<p>Yoğun olarak kullandığım 3 programlama dili var. Bunlar C,C++ ve Python. Bunlar dışında diğer dilleri de işim oldukça derdimi anlatacak kadar kullanabiliyorum.(Bkz:bu site)</p>",
+      "image": "programming.gif",
+      "credits": {
+        "C":"STM32 mikrodenetleyicileri programlarken C diliyle çalışıyorum.",
+        "C++": "İş yaparken C++'ı kullanmıyorum fakat zaman zaman kendi projelerimde kullanıyorum ve project Euler gibi algoritmik problemleri çözmek için kullanıyorum.",
+        "Python": "Python'u çok yoğun bir şekilde işlerimi otomatize etmek için kullanıyorum. Makine Öğrenmesi ve Pekiştirmeli Öğrenme projeleriyle de ilgileniyorum. Aşağıda aktif olarak kullandığım modülleri görebilirsiniz.<br> OpenCV, PyQt6, Sklearn, PyTorch,"
+      }
+    },
+    {
+      "id": "resume",
+      "title": "Resume",
+      "keywords": "Abdullah ÇAVUŞ, Embedded Developer",
+      "description": "<p>Becerilerimi ve kendimi profesyonel olarak sürekli geliştirmek için yüksek motivasyona sahibim. Yeni bir şeyler öğrenme konusunda hızlı ve hevesliyim.</p>",
+      "image": "resume.gif",
+      "credits": {
+        "Bilko Bilgisayar Kontrol ve Otomasyon | 2022-Current": "Gömülü sistemler yazılım/donanım tasarımı. Proje testleri için masaüstü uygulamaları.",
+        "Freelance - Şahıs Şirketi | 2021-2022": "PCB Tasarımı, PyQt5 ile Qt masaüstü uygulamaları, Python projeleri",
+        "ROBOGOR Robotik ve Görme Teknolojileri | 2019-2021": "Espressif ve STM32 ile gömülü sistem yazılımı ve tasarımı. KiCad ve EasyEDA ile PCB tasarımı. Airsim ile simülasyon uygulamaları. MQTT ile IoT uygulamaları.",
+        "MHM Robotik | 2018-2019": "Proteus ile PCB tasarımı.Arduino için eğitim içeriği <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">ürünü</a>. "
+      }
+    }
+  ]
+}

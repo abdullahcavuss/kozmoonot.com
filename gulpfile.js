@@ -14,7 +14,7 @@ gulp.task('copy', function(){
     .pipe(gulp.dest('temp'));
 });
 
-gulp.task('twig_nl', function () {
+gulp.task('twig_tr', function () {
   return gulp.src(['src/index.twig'])
    .pipe(plumber({
        handleError: function (err) {
@@ -23,7 +23,7 @@ gulp.task('twig_nl', function () {
        }})
     )
     .pipe(data(function (file) {
-      return JSON.parse(fs.readFileSync('data/nl.json'));  
+      return JSON.parse(fs.readFileSync('data/tr.json'));  
     }))
     .pipe(
       twig().on('error', function (err) {
@@ -31,7 +31,7 @@ gulp.task('twig_nl', function () {
         this.emit('end');
       })
      )
-    .pipe(gulp.dest('temp/nl'));
+    .pipe(gulp.dest('temp/tr'));
 });
 
 gulp.task('twig_en', function () {
@@ -72,12 +72,12 @@ gulp.task('script', function(){
     .pipe(gulp.dest('temp'));
 });
 
-gulp.task('inline_nl', function(){
-  return gulp.src('temp/nl/index.html')
+gulp.task('inline_tr', function(){
+  return gulp.src('temp/tr/index.html')
     .pipe(inlineSource({
       "compress": false
     }))
-    .pipe(gulp.dest('temp/nl'));
+    .pipe(gulp.dest('temp/tr'));
 });
 
 gulp.task('inline_en', function(){
@@ -88,15 +88,15 @@ gulp.task('inline_en', function(){
     .pipe(gulp.dest('temp'));
 });
 
-gulp.task('minify_nl', function(){
-  return gulp.src('temp/nl/index.html')
+gulp.task('minify_tr', function(){
+  return gulp.src('temp/tr/index.html')
     .pipe(htmlMin({
       collapseWhitespace: true,
       removeComments: true,
       minifyCSS: true,
       minifyJS: true
     }))
-    .pipe(gulp.dest('./nl/'));
+    .pipe(gulp.dest('./tr/'));
 });
 
 gulp.task('minify_en', function(){
@@ -115,7 +115,7 @@ gulp.task('clean', function(){
     .pipe(clean());
 });
 
-gulp.task('build', gulp.series('copy', 'twig_nl', 'twig_en', 'script', 'inline_nl', 'inline_en', 'minify_nl', 'minify_en', 'clean'));
+gulp.task('build', gulp.series('copy', 'twig_tr', 'twig_en', 'script', 'inline_en', 'inline_tr','minify_tr', 'minify_en', 'clean'));
 
 gulp.task('default', function () {
   return watch(['src/**/*', 'data/**/*'], gulp.series('build'));

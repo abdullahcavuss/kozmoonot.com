@@ -73,8 +73,8 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-size: 6vmin;
-  font-size: calc(var(--vmin, 1vmin) * 6);
+  font-size: 4.5vmin;
+  font-size: calc(var(--vmin, 1vmin) * 4.5);
 }
 
 h3 {
@@ -185,7 +185,7 @@ p:last-child {
 .pupil {
   position: absolute;
   left: 30%;
-  top: 32%;
+  top: 45%;
   width: 40%;
   height: 44.5%;
 
@@ -205,6 +205,7 @@ p:last-child {
   background-position: calc(var(--vmin, 1vmin) * -20) calc(var(--vmin, 1vmin) * -84.4);
   background-size: 90vmin auto;
   background-size: calc(var(--vmin, 1vmin) * 90) auto;
+  transform: scale(1.2);
 }
 
 .eyelid {
@@ -222,7 +223,7 @@ p:last-child {
 .eyelid--top {
   transition: transform .1s ease-out;
   top: 0;
-  transform: scaleY(.45);
+  transform: scaleY(0);
   transform-origin: center top;
 }
 
@@ -253,11 +254,11 @@ p:last-child {
   transition: transform .1s ease-out;
   position: absolute;
   left: -14%;
-  top: 45%;
+  top: 10%;
   width: 128%;
   height: 0;
   padding-bottom: 23%;
-  transform: translate3d(0px, -50%, 0px);
+  transform: translate3d(0px, -60%, 0px);
 }
 
 .eyebrow__inner {
@@ -283,11 +284,13 @@ p:last-child {
 #eye-left .eyebrow__inner {
   background-position: -19.3vmin -74.5vmin;
   background-position: calc(var(--vmin, 1vmin) * -19.3) calc(var(--vmin, 1vmin) * -74.5);
+  transform: rotate(-1deg);
 }
 
 #eye-right .eyebrow__inner {
   background-position: -19.3vmin -79.6vmin;
   background-position: calc(var(--vmin, 1vmin) * -19.3) calc(var(--vmin, 1vmin) * -79.6);
+  transform: rotate(1deg);
 }
 
 #scalp {
@@ -338,28 +341,33 @@ body[data-project-active="true"] #content {
 }
 
 [data-emotional-state="horrified"] #eye-right .eyebrow__inner {
-  animation: twitchy-eyebrow 12s step-end infinite;
+  transform: rotate(-10deg);
 }
+[data-emotional-state="horrified"] #eye-left .eyebrow__inner {
+  transform: rotate(10deg);
+}
+
 [data-emotional-state="horrified"] #eye-right .eyelid--bottom {
   animation: twitchy-eyelid 12s step-end infinite;
 }
 
 [data-emotional-state="startled"] .pupil__inner {
-  transform: scale(.75);
+  transform: scale(1);
 }
 [data-emotional-state="startled"] .eyebrow {
-  transform: translate3d(0px, -100%, 0px);
+  transform: translate3d(0px, -80%, 0px);
 }
 [data-emotional-state="startled"] .eyelid--top {
-  transform: scaleY(.35);
+  transform: scaleY(0);
 }
 
 [data-emotional-state="horrified"] .pupil__inner {
-  transform: scale(.5);
+  transform: scale(0.5)translateY(-120%);
 }
 [data-emotional-state="horrified"] .eyebrow {
-  transform: translate3d(0px, -320%, 0px);
+  transform: translate3d(0px, -180%, 0px) ;
 }
+
 [data-emotional-state="horrified"] .eyelid--top {
   transform: scaleY(0);
 }
@@ -443,11 +451,11 @@ body[data-project-active="true"] #content {
   height: 2.655em;
 }
 
-.links .link--youtube {
+.links .link--github {
   background-position: left center;
 }
 
-.links .link--instagram {
+.links .link--stackoverflow {
   background-position: center center;
 }
 
@@ -732,16 +740,16 @@ html:not(.no-displacement-map-support) #language-selector a {
     transform: none;
   }
   71% {
-    transform: translateX(-75%);
+    transform: translateX(-30%);
   }
   80% {
-    transform: translateX(-75%);
+    transform: translateX(-40%);
   }
   82% {
-    transform: translateX(75%);
+    transform: translateX(30%);
   }
   99% {
-    transform: translateX(75%);
+    transform: translateX(40%);
   }
   100% {
     transform: none;
@@ -777,13 +785,13 @@ html:not(.no-displacement-map-support) #language-selector a {
     transform: none;
   }
   70.75% {
-    transform: translateY(50%);
+    transform: translateY(20%);
   }
   71.5% {
     transform: none;
   }
   72.25% {
-    transform: translateY(50%);
+    transform: translateY(20%);
   }
   73% {
     transform: none;
