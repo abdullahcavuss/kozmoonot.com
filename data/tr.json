@@ -65,6 +65,17 @@
       }
     },
     {
+      "id": "UI",
+      "title": "Programming Languages",
+      "keywords": "Development",
+      "description": "<p></p>",
+      "image": "programming.gif",
+      "credits": {
+        "Video Editor": "<p>Bu programı freelance çalıştığım dönemde canlı yayın hizmeti veren bir firmaya yaptım. Bu programla videodan hızlıca kesitler alınabilir, videolar işaretlenen yerlerden birleştirilebilir ve aralarına geçiş videoları eklenebilir, vb.<br> Programı PyQT5 ve ffmpeg kullanarak crossplatform çalışabilecek şekilde yaptım. Gifte görünen timeline ve markerlerı QPainter ve QPen kullanarak sıfırdan yaptım.<img src=\"./static/imgs/video_player.gif\" alt=\"video player\"></p>",
+        "Development": ""
+      }
+    },
+    {
       "id": "resume",
       "title": "Resume",
       "keywords": "Abdullah ÇAVUŞ, Embedded Developer",
@@ -72,7 +83,7 @@
       "image": "resume.gif",
       "credits": {
         "Bilko Bilgisayar Kontrol ve Otomasyon | 2022-Current": "Gömülü sistemler yazılım/donanım tasarımı. Proje testleri için masaüstü uygulamaları.",
-        "Freelance - Şahıs Şirketi | 2021-2022": "PCB Tasarımı, PyQt5 ile Qt masaüstü uygulamaları, Python projeleri",
+        "Freelance - Şahıs Şirketi | 2021-2022": "PCB Tasarımı, PyQt5 ile Qt masaüstü uygulamaları, Python projeleri  <img src=\"../static/imgs/video_player.gif\"> testestest",
         "ROBOGOR Robotik ve Görme Teknolojileri | 2019-2021": "Espressif ve STM32 ile gömülü sistem yazılımı ve tasarımı. KiCad ve EasyEDA ile PCB tasarımı. Airsim ile simülasyon uygulamaları. MQTT ile IoT uygulamaları.",
         "MHM Robotik | 2018-2019": "Proteus ile PCB tasarımı.Arduino için eğitim içeriği <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">ürünü</a>. "
       }

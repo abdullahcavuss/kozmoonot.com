@@ -27,14 +27,15 @@
       "description": "<p></p>",
       "image": "pcb_design.gif",
       "credits": {
-        "Concept & execution": ""
+        "E-Seal": "<img src=\"./static/imgs/pcbs/e_seal.gif\"  >",
+        "Shift Control":"<img src=\"./static/imgs/pcbs/tmsn1.gif\"  > <img src=\"./static/imgs/pcbs/tmsn2.gif\"  >"
       }
     },
     {
-      "id": "microcontrollers",
-      "title": "Microcontrollers",
-      "keywords": "Development",
-      "description": "<p></p>",
+      "id": "embedded",
+      "title": "Embedded Systems",
+      "keywords": "",
+      "description": "<p><br><br>I am currently working as an embedded software developer at Bilko, using STM32 and Nuvoton microcontrollers.</p>",
       "image": "microcontrollers.gif",
       "credits": {
         "Design": "",
@@ -42,25 +43,48 @@
       }
     },
     {
-      "id": "programming",
-      "title": "Programming Languages",
+      "id": "robotics",
+      "title": "Robotics",
       "keywords": "Development",
       "description": "<p></p>",
-      "image": "programming.gif",
+      "image": "robotics.gif",
       "credits": {
-        "Design": "",
+        "Snake-Like Robot": "<img src=\"./static/imgs/snake-like_robot.gif\" alt=\"snake-like robot\"  >",
+        "Autonomous Quadcopter": ""
+      }
+    },
+    {
+      "id": "UI",
+      "title": "UI Design",
+      "keywords": "My Works",
+      "description": "<p> I made some UI</p>",
+      "image": "ui.gif",
+      "credits": {
+        "Video Editor": "<br><p align=\"justify\">I made this program for a company that provides live streaming services when I was freelancing. With this program, you can quickly cut the video, merge the videos from the marked places and add transition videos between them, etc.<br> I made the program to work crossplatform using PyQT5 and ffmpeg. I made the timeline and markers that appear in the gif from scratch using QPainter and QPen.<img src=\"./static/imgs/video_player.gif\" alt=\"video player\"></p><br>",
+        "Development": ""
+      }
+    },
+    {
+      "id": "AI",
+      "title": "AI ",
+      "keywords": "My Works",
+      "description": "<p> I made some AI projects ",
+      "image": "ai.gif",
+      "credits": {
+        "Reinforcement Learning": "<p> Currently I am learning Reinforcement Learning. </p>",
+        "GANS Face Generator": "<img src=\"./static/imgs/gans.gif\" alt=\"gans\"  ></p>",
         "Development": ""
       }
     },
     {
       "id": "resume",
-      "title": "Resume",
-      "keywords": "Abdullah ÇAVUŞ, Embedded Developer",
-      "description": "<p>I am highly motivated to continuously improve my skills and myself professionally. I am quick and enthusiastic about learning something new.</p>",
+      "title": "Resume ",
+      "keywords": "<img src=\"./static/imgs/pp.jpg\" alt=\"pp\"  > <br>Abdullah ÇAVUŞ, Embedded Developer ",
+      "description": " <p>I am highly motivated to continuously improve my skills and myself professionally. I am quick and enthusiastic about learning something new.</p>",
       "image": "resume.gif",
       "credits": {
         "Bilko Automation and Control | 2022-Current": "Embedded systems software design with STM32. Desktop apps for project tests.",
-        "Freelance-Personal Company | 2021-2022": "PCB Design, Qt desktop apps with PyQt5, Python projects",
+        "Freelance-Personal Company | 2021-2022": "PCB Design, Qt desktop apps with PyQt5, Python projects ",
         "ROBOGOR Robotics and Vision Technologies | 2019-2021": "Embedded systems software and design with Espressif and STM32.PCB design with KiCad and EasyEDA. Simulation apps with Airsim. IoT apps with MQTT.",
         "MHM Robotics | 2018-2019": "PCB design with Proteus.Educational content <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">production</a> for Arduino."
       }
