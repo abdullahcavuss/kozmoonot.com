@@ -4,3 +4,4 @@ temp/
 
 # Dependency directories
 node_modules/
+static/

@@ -2,90 +2,80 @@
   "meta": {
     "lang": "tr",
     "locale": "tr_TR",
-    "title": "Abdullah Cavus - Yazilim Gelistirici",
+    "title": "Abdullah Cavus - Kontrol ve Otomasyon Mühendisi",
     "description": "A selection of works from the portfolio of Abdullah CAVUS, embedded developer."
   },
   "global": {
     "basePath": "../",
     "title": "Abdullah CAVUS",
-    "subtitle": "embedded developer",
+    "subtitle": "Kontrol ve Otomasyon Mühendisi",
     "contactMe": "Benimle İletişime Geçin",
     "alternativeLanguages": [
       {
-        "lang": "tr",
-        "title": "TR",
-        "path": "/tr/",
+        "lang": "en",
+        "title": "English",
+        "path": "/",
         "autoRedirect": true
       }
     ]
   },
   "projects": [
     {
-      "id": "projects",
-      "title": "Personal Projects",
-      "keywords": "Development",
-      "description": "<p></p>",
+      "id": "embedded",
+      "title": "Gömülü Yazılım",
+      "keywords": "",
+      "description": "<p><br><br>Şuanda Bilko'da gömülü sistem yazılımıyla ilgileniyorum. Projelerimizde STM32 ve Nuvoton marka mikrodenetleyiciler kullanıyoruz. Bunlarla birlikte yaptığım projelerde de genellikle ESP32 ve STM32F serisi mikrodenetleyiciler kullanıyorum. </p>",
       "image": "microcontrollers.gif",
       "credits": {
-        "Design": "",
-        "Development": ""
+        "": "",
+        "": ""
       }
     },
     {
       "id": "pcb_design",
-      "title": "PCB Design",
-      "keywords": "KiCAD,Proteus,EasyEDA",
-      "description": "<p>Çalışma ve öğrencilik hayatım boyunca çeşitli devreler tasarlayıp, bastırdım ve bastım. </p>",
+      "title": "PCB Tasarım",
+      "keywords": "",
+      "description": "Çalışmaya başladığım ilk yer olan MHM Robotik'te Proteus ile donanım tasarımına başladım. Daha sonra ROBOGOR'da KiCAD ve EasyEDA ile tasarımlar yaptım. Şuanda Bilko'da gömülü yazılım yanında donanım tasarımları da yapıyorum. Aşağıda daha önce yaptığım pcblerden birkaçını görebilirsiniz. <br><br>",
       "image": "pcb_design.gif",
       "credits": {
-        "KiCAD": ""
+        "Vites Kontrol Kartı | 2021":"Şahıs şirketimde yaptığım projelerden birisi. Bir firmanın araçlarında kullanılmak üzere vites kontrol kartlarının devresini tasarlayıp ürettirdim. <img src=\"./static/imgs/pcbs/tmsn1.gif\"  > <img src=\"./static/imgs/pcbs/tmsn2.gif\"  >",
+        "E-Mühür | 2020": "Robogör'de çalıştığım dönemde E-Mühür projesi kapsamında tasarladığım üzerinde GPRS, Bluetooth gibi donanımlar bulunan devre. <img src=\"./static/imgs/pcbs/e_seal.gif\"  >",
+        "Red-Kit | 2018": "MHM Robotikte çalıştığım dönemde çocukların robotik kodlama eğitimlerinde kullanılmak üzere tasarladığım ve hala satışı yapılan bir <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">ürün</a>. <img src=\"./static/imgs/pcbs/redkit.gif\"  >"
       }
     },
     {
-      "id": "microcontrollers",
-      "title": "Microcontrollers",
-      "keywords": "Development",
-      "description": "<p></p>",
-      "image": "microcontrollers.gif",
+      "id": "robotics",
+      "title": "Robotik",
+      "keywords": "",
+      "description": "<p> Robotik serüvenim üniversitenin ilk zamanlarında çizgi izleyen robotla başladı. Sonrasında çeşitli kara araçları ve quadcopterler üzerine çalışmalar yaptım. Şuanda boş vakitlerimde bitirme tezim olan yılan-benzeri robotla ilgileniyorum. Hedefim yılan-benzeri robotun kinematik denklemlerini reinforcement learning ile oluşturmak. Simülasyon çalışmalarımı CoppeliaSim ile yapıyorum. Çalışmalarımı Youtube üzerinden takip edebilirsiniz. </p>",
+      "image": "robotics.gif",
       "credits": {
-        "Design": "",
-        "Development": ""
-      }
-    },
-    {
-      "id": "programming",
-      "title": "Programlama",
-      "keywords": "C, C++, Python",
-      "description": "<p>Yoğun olarak kullandığım 3 programlama dili var. Bunlar C,C++ ve Python. Bunlar dışında diğer dilleri de işim oldukça derdimi anlatacak kadar kullanabiliyorum.(Bkz:bu site)</p>",
-      "image": "programming.gif",
-      "credits": {
-        "C":"STM32 mikrodenetleyicileri programlarken C diliyle çalışıyorum.",
-        "C++": "İş yaparken C++'ı kullanmıyorum fakat zaman zaman kendi projelerimde kullanıyorum ve project Euler gibi algoritmik problemleri çözmek için kullanıyorum.",
-        "Python": "Python'u çok yoğun bir şekilde işlerimi otomatize etmek için kullanıyorum. Makine Öğrenmesi ve Pekiştirmeli Öğrenme projeleriyle de ilgileniyorum. Aşağıda aktif olarak kullandığım modülleri görebilirsiniz.<br> OpenCV, PyQt6, Sklearn, PyTorch,"
+        "Snake-Like Robot | 2022": "<img src=\"./static/imgs/snake-like_robot.gif\" alt=\"snake-like robot\"  >",
+        "Autonomous Quadcopter | 2019": "<img src=\"./static/imgs/autonomous_drone.gif\" alt=\"autonomous drone\"  > <img src=\"./static/imgs/autonomous_drone2.gif\" alt=\"autonomous drone\"  >"
       }
     },
     {
       "id": "UI",
-      "title": "Programming Languages",
-      "keywords": "Development",
-      "description": "<p></p>",
-      "image": "programming.gif",
+      "title": "UI Projeleri",
+      "keywords": "",
+      "description": "<p> Projelerde kullanılmak üzere birçok program yapıyorum. Arayüz için genelde Python ile QT kullanıyorum. Yaptığım programlardan birkaçını aşağıda görebilirsiniz. </p>",
+      "image": "ui.gif",
       "credits": {
-        "Video Editor": "<p>Bu programı freelance çalıştığım dönemde canlı yayın hizmeti veren bir firmaya yaptım. Bu programla videodan hızlıca kesitler alınabilir, videolar işaretlenen yerlerden birleştirilebilir ve aralarına geçiş videoları eklenebilir, vb.<br> Programı PyQT5 ve ffmpeg kullanarak crossplatform çalışabilecek şekilde yaptım. Gifte görünen timeline ve markerlerı QPainter ve QPen kullanarak sıfırdan yaptım.<img src=\"./static/imgs/video_player.gif\" alt=\"video player\"></p>",
-        "Development": ""
+        "Ballance": " YTUROK ekibiyle Phoenix Contact Yarışması için yaptığımız, motorların plc ile kontrol edildiği ball and plate projemiz. Bu projede arayüz, görüntü işleme ve modbus haberleşme kısımlarını hazırladım. <img src=\"./static/imgs/ballance.gif\" alt=\"ballance\"  >",
+        "Video Editor": "<p align=\"justify\">Bu programı şahıs şirketimde canlı yayın hizmetleri sunan bir şirket için yaptım. Bu programla bir videoyu hızlıca kesebilir, işaretlenmiş yerlerden videoları birleştirebilir ve aralarına geçiş videoları ekleyebilirsiniz. <br> Programı PyQT5 ve ffmpeg kullanarak cross platform çalışacak şekilde yaptım. Gif'te görünen zaman çizelgesini ve işaretleyicileri QPainter ve QPen kullanarak sıfırdan hazırladım. <img src=\"./static/imgs/video_player.gif\" alt=\"video oynatıcı\"></p>"
       }
     },
     {
       "id": "resume",
-      "title": "Resume",
-      "keywords": "Abdullah ÇAVUŞ, Embedded Developer",
-      "description": "<p>Becerilerimi ve kendimi profesyonel olarak sürekli geliştirmek için yüksek motivasyona sahibim. Yeni bir şeyler öğrenme konusunda hızlı ve hevesliyim.</p>",
+      "title": "CV",
+      "keywords": "<img src=\"./static/imgs/pp.jpg\" alt=\"pp\"  > <br>Abdullah ÇAVUŞ <br> Kontrol ve Otomasyon Mühendisi",
+      "description": "<p>Becerilerimi ve kendimi profesyonel olarak sürekli geliştirmek için yüksek motivasyona sahibim. Yeni bir şeyler öğrenme konusunda hızlı ve hevesliyim. <br> Detaylı CV için <a href=\"./static/cv/abdullah_cavus_cv.pdf\" target=\"_blank\">tıklayın</a> </p>",
       "image": "resume.gif",
       "credits": {
-        "Bilko Bilgisayar Kontrol ve Otomasyon | 2022-Current": "Gömülü sistemler yazılım/donanım tasarımı. Proje testleri için masaüstü uygulamaları.",
-        "Freelance - Şahıs Şirketi | 2021-2022": "PCB Tasarımı, PyQt5 ile Qt masaüstü uygulamaları, Python projeleri  <img src=\"../static/imgs/video_player.gif\"> testestest",
+        "Bilko Bilgisayar Kontrol ve Otomasyon | 2022-Günümüz": "Gömülü sistemler yazılım/donanım tasarımı. Proje testleri için masaüstü uygulamaları.",
+        "Freelance - Şahıs Şirketi | 2021-2022": "PCB Tasarımı, PyQt5 ile Qt masaüstü uygulamaları, Python projeleri",
         "ROBOGOR Robotik ve Görme Teknolojileri | 2019-2021": "Espressif ve STM32 ile gömülü sistem yazılımı ve tasarımı. KiCad ve EasyEDA ile PCB tasarımı. Airsim ile simülasyon uygulamaları. MQTT ile IoT uygulamaları.",
-        "MHM Robotik | 2018-2019": "Proteus ile PCB tasarımı.Arduino için eğitim içeriği <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">ürünü</a>. "
+        "MHM Robotik | 2018-2019": "Proteus ile PCB tasarımı.Arduino için eğitim içeriği ürünü. "
       }
     }
   ]

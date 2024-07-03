@@ -2,91 +2,80 @@
   "meta": {
     "lang": "en",
     "locale": "en_US",
-    "title": "Abdullah Cavus - Embedded Developer",
+    "title": "Abdullah Cavus - Control and Automation Engineer",
     "description": "A selection of works from the portfolio of Abdullah CAVUS, embedded developer."
   },
   "global": {
     "basePath": "",
     "title": "Abdullah CAVUS",
-    "subtitle": "embedded developer",
+    "subtitle": "Control and Automation Engineer",
     "contactMe": "Contact me",
     "alternativeLanguages": [
       {
-        "lang": "en",
-        "title": "English",
-        "path": "/",
+        "lang": "tr",
+        "title": "TR",
+        "path": "/tr/",
         "autoRedirect": true
       }
     ]
   },
   "projects": [
     {
-      "id": "pcb_design",
-      "title": "PCB Design",
-      "keywords": "KiCAD,Proteus,EasyEDA",
-      "description": "<p></p>",
-      "image": "pcb_design.gif",
+      "id": "embedded",
+      "title": "Embedded Software",
+      "keywords": "",
+      "description": "<p><br><br>Currently, I am working with embedded system software at Bilko. In our projects, we use STM32 and Nuvoton brand microcontrollers. In my own projects, I generally use ESP32 and STM32F series microcontrollers. </p>",
+      "image": "microcontrollers.gif",
       "credits": {
-        "E-Seal": "<img src=\"./static/imgs/pcbs/e_seal.gif\"  >",
-        "Shift Control":"<img src=\"./static/imgs/pcbs/tmsn1.gif\"  > <img src=\"./static/imgs/pcbs/tmsn2.gif\"  >"
+        "": "",
+        "": ""
       }
     },
     {
-      "id": "embedded",
-      "title": "Embedded Systems",
+      "id": "pcb_design",
+      "title": "PCB Design",
       "keywords": "",
-      "description": "<p><br><br>I am currently working as an embedded software developer at Bilko, using STM32 and Nuvoton microcontrollers.</p>",
-      "image": "microcontrollers.gif",
+      "description": "I started hardware design with Proteus at MHM Robotics, the first place I worked. Later, I made designs with KiCAD and EasyEDA at ROBOGOR. Currently, besides embedded software, I also do hardware designs at Bilko. Below, you can see some of the PCBs I have designed before. <br><br>",
+      "image": "pcb_design.gif",
       "credits": {
-        "Design": "",
-        "Development": ""
+        "Gear Control Board | 2021":"One of the projects I did in my own company. I designed and manufactured the circuit of gear control boards to be used in a company's vehicles. <img src=\"./static/imgs/pcbs/tmsn1.gif\"  > <img src=\"./static/imgs/pcbs/tmsn2.gif\"  >",
+        "E-Seal | 2020": "A circuit with GPRS, Bluetooth, and other hardware that I designed as part of the E-Seal project during my time at Robogör. <img src=\"./static/imgs/pcbs/e_seal.gif\"  >",
+        "Red-Kit | 2018": "A product I designed during my time at MHM Robotics for use in children's robotic coding education, which is still being sold. <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">Product Link</a>. <img src=\"./static/imgs/pcbs/redkit.gif\"  >"
       }
     },
     {
       "id": "robotics",
       "title": "Robotics",
-      "keywords": "Development",
-      "description": "<p></p>",
+      "keywords": "",
+      "description": "<p> My robotics journey started with a line-following robot in the early days of university. Later, I worked on various land vehicles and quadcopters. Currently, in my spare time, I am working on my thesis project, a snake-like robot. My goal is to create the kinematic equations of the snake-like robot using reinforcement learning. I am doing my simulation work with CoppeliaSim. You can follow my work on YouTube. </p>",
       "image": "robotics.gif",
       "credits": {
-        "Snake-Like Robot": "<img src=\"./static/imgs/snake-like_robot.gif\" alt=\"snake-like robot\"  >",
-        "Autonomous Quadcopter": ""
+        "Snake-Like Robot | 2022": "<img src=\"./static/imgs/snake-like_robot.gif\" alt=\"snake-like robot\"  >",
+        "Autonomous Quadcopter | 2019": "<img src=\"./static/imgs/autonomous_drone.gif\" alt=\"autonomous drone\"  > <img src=\"./static/imgs/autonomous_drone2.gif\" alt=\"autonomous drone\"  >"
       }
     },
     {
       "id": "UI",
-      "title": "UI Design",
-      "keywords": "My Works",
-      "description": "<p> I made some UI</p>",
+      "title": "UI Projects",
+      "keywords": "",
+      "description": "<p> I create many programs for use in projects. I usually use Python with QT for the interface. Below, you can see some of the programs I have made. </p>",
       "image": "ui.gif",
       "credits": {
-        "Video Editor": "<br><p align=\"justify\">I made this program for a company that provides live streaming services when I was freelancing. With this program, you can quickly cut the video, merge the videos from the marked places and add transition videos between them, etc.<br> I made the program to work crossplatform using PyQT5 and ffmpeg. I made the timeline and markers that appear in the gif from scratch using QPainter and QPen.<img src=\"./static/imgs/video_player.gif\" alt=\"video player\"></p><br>",
-        "Development": ""
-      }
-    },
-    {
-      "id": "AI",
-      "title": "AI ",
-      "keywords": "My Works",
-      "description": "<p> I made some AI projects ",
-      "image": "ai.gif",
-      "credits": {
-        "Reinforcement Learning": "<p> Currently I am learning Reinforcement Learning. </p>",
-        "GANS Face Generator": "<img src=\"./static/imgs/gans.gif\" alt=\"gans\"  ></p>",
-        "Development": ""
+        "Ballance": " A ball and plate project we made for the Phoenix Contact Competition with the YTUROK team, where the motors are controlled by PLC. In this project, I prepared the interface, image processing, and modbus communication parts. <img src=\"./static/imgs/ballance.gif\" alt=\"ballance\"  >",
+        "Video Editor": "<p align=\"justify\">I made this program for a company providing live broadcast services in my own business. With this program, you can quickly cut a video, combine videos from marked places, and add transition videos between them. <br> I made the program cross-platform using PyQT5 and ffmpeg. I prepared the timeline and markers seen in the GIF from scratch using QPainter and QPen. <img src=\"./static/imgs/video_player.gif\" alt=\"video player\"></p>"
       }
     },
     {
       "id": "resume",
-      "title": "Resume ",
-      "keywords": "<img src=\"./static/imgs/pp.jpg\" alt=\"pp\"  > <br>Abdullah ÇAVUŞ, Embedded Developer ",
-      "description": " <p>I am highly motivated to continuously improve my skills and myself professionally. I am quick and enthusiastic about learning something new.</p>",
+      "title": "Resume",
+      "keywords": "<img src=\"./static/imgs/pp.jpg\" alt=\"pp\"  > <br>Abdullah ÇAVUŞ <br> Control and Automation Engineer",
+      "description": "<p>I am highly motivated to continuously develop my skills and myself professionally. I am quick and eager to learn new things. <br> For a detailed resume, <a href=\"./static/cv/abdullah_cavus_cv.pdf\" target=\"_blank\">click here</a> </p>",
       "image": "resume.gif",
       "credits": {
-        "Bilko Automation and Control | 2022-Current": "Embedded systems software design with STM32. Desktop apps for project tests.",
-        "Freelance-Personal Company | 2021-2022": "PCB Design, Qt desktop apps with PyQt5, Python projects ",
-        "ROBOGOR Robotics and Vision Technologies | 2019-2021": "Embedded systems software and design with Espressif and STM32.PCB design with KiCad and EasyEDA. Simulation apps with Airsim. IoT apps with MQTT.",
-        "MHM Robotics | 2018-2019": "PCB design with Proteus.Educational content <a href=\"https://www.robotsepeti.com/red-kit-robotik-kodlama-uygulama-kiti\" target=\"_blank\">production</a> for Arduino."
+        "Bilko Computer Control and Automation | 2022-Present": "Embedded systems software/hardware design. Desktop applications for project testing.",
+        "Freelance - Own Company | 2021-2022": "PCB Design, Qt desktop applications with PyQt5, Python projects",
+        "ROBOGOR Robotics and Vision Technologies | 2019-2021": "Embedded system software and design with Espressif and STM32. PCB design with KiCad and EasyEDA. Simulation applications with Airsim. IoT applications with MQTT.",
+        "MHM Robotics | 2018-2019": "PCB design with Proteus. Educational content product for Arduino."
       }
     }
   ]
